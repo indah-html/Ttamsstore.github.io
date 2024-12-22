@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="bootstrap-5.2.3-dist/bootstrap-5.2.3-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Bootstrap 5</title>
+    
+    <style>
+        .banner {
+            background-image: url(download.jpeg); /* Ganti dengan URL gambar Anda */
+            background-size: cover; /* Mengatur ukuran gambar agar menutupi area */
+            background-position: center; /* Memusatkan gambar */
+            height: 675px; /* Tinggi banner */
+            color: black ; /* Warna teks */
+            display: flex; /* Menggunakan flexbox untuk penataan */
+            align-items: center; /* Memusatkan konten secara vertikal */
+            justify-content: center; /* Memusatkan konten secara horizontal */
+            text-align: center; /* Memusatkan teks */
+        }
+
+
+        footer {
+            background-color: #f5b7b1 ; /* Warna latar belakang hitam */
+            color: black; /* Warna teks */
+            padding: 40px 0; /* Padding atas dan bawah */
+        }
+        .footer-links a {
+            color: black; /* Warna tautan */
+            text-decoration: none; /* Menghilangkan garis bawah */
+        }
+        .footer-links a:hover {
+            text-decoration: underline; /* Garis bawah saat hover */
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+        <div class="container">
+        <a class="navbar-brand" href="#">TTAMSSTORE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="service.html">Services</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="Review.html">Review</a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </nav>
+    <!-- End Navbar -->
+
+        <!--contact-->
+        <section id="contact">
+            <div class="container">
+            <div class="mb-3 row text-center">
+            <h1>Review</h1>
+            </div>
+            <div class="row justify-content-center">
+            <div class="col-md-6">
+            <form>
+            <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3 form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Subscribe to My Ttamsstore newsletter.</label>
+                </div>
+                <div class="mb-3">
+                <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                </form>
+                </div>
+                </div>
+                </div>
+                </section>
+                <!--end services-->
+
+                <footer class="text-center">
+                    <div class="container">
+                        <h5>Tentang Kami</h5>
+                        <p>Kami adalah perusahaan yang menyediakan layanan terbaik untuk Anda.</p>
+                        <h5>Kontak</h5>
+                        <p>Email: Ttamsstore17@gmail.com</p>
+                        <p>Telepon: (021) 12345678</p>
+                        <hr class="my-4" style="border-color: #ffffff;">
+                        <p>&copy; 2023 Copyright: Ttamsstore</p>
+                    </div>
+                </footer>
+                
+
+</body>
+</html>
